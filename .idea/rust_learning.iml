@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/apps/guessing_game/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/branches/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/functions/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
