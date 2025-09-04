@@ -20,4 +20,40 @@ fn main() {
     } else {0};
 
     println!("y is {y}");
+
+    // Testing loops
+    let mut counter = 0;
+
+    println!("dgfhg");
+
+    let result = 'outer: loop {
+        // just another loop
+        loop {
+            // println!("Loop until stopped with a signal");
+            counter += 2;
+            println!("Incrementing counter by 2");
+
+            if counter >= 234 {
+                break 'outer counter;
+            }
+        }
+    };
+
+    println!("The value of result is {result}");
+
+    println!("Testing the while loop");
+
+    while counter > 0 {
+        println!("Counter {counter}");
+        counter -= 1;
+    }
+
+    // Try with inclusive range 1..=40 and see the difference
+    for index in (1..=40).rev() {
+        println!("Current index {index}");
+    }
+
+    for element in [4, 5, 9, 10] as [u8; 4] {
+        println!("Array elements {element}");
+    }
 }
